@@ -1,4 +1,4 @@
-const proxyurl = 'opencart.loc';
+const proxyURL = 'opencart.loc';
 
 // Load Gulp...of course
 const { src, dest, task, watch, series, parallel } = require('gulp');
@@ -52,7 +52,7 @@ var twigWatch = '../template/**/*.twig';
 // Tasks
 function browser_sync() {
   browserSync.init({
-    proxy: proxyurl
+    proxy: proxyURL
   });
 }
 
