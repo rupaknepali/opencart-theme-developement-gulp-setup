@@ -14,11 +14,11 @@
 		"scss"
 	],
 	"devDependencies": {
-		"@babel/core": "^7.5.5",
-		"@babel/preset-env": "^7.5.5",
+		"@babel/core": "^7.9.0",
+		"@babel/preset-env": "^7.9.0",
 		"babelify": "^10.0.0",
 		"browser-sync": "^2.26.7",
-		"browserify": "^16.3.0",
+		"browserify": "^16.5.1",
 		"browserify-shim": "^3.8.14",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^6.1.0",
@@ -58,7 +58,7 @@
 	],
 	"license": "GPL-3.0",
 	"dependencies": {
-		"gulp-clean-css": "^4.2.0",
+		"gulp-clean-css": "^4.3.0",
 		"gulp-concat-css": "^3.1.0"
 	}
 }
